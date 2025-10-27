@@ -31,14 +31,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Job Hunter Admin Panel',
+      title: 'Imkon Job Admin Panel',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: const Color(0xFFF5F7FA),
         fontFamily: 'Roboto',
       ),
-      home: const AdminDashboard(),
+      home: AdminScreen(),
     );
   }
 }
